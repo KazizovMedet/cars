@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h5 {
+    color: #fff;
+}
+
+button {
+    cursor: pointer;
+}
+
+section {
+    padding: 35px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 15px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding: 15px;
+}
+
+.col-8 .row {
+    margin: -15px;
+}
+
+.container {
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #000;
+    padding: 34px 0;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.nav {
+    display: flex;
+    gap: 40px
+}
+
+.nav a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.box {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.box:hover .inner-box {
+    bottom: 23px;
+    left: 22px;
+}
+
+.box img {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.box:hover .box-button {
+    top: 30px;
+    left: 22px;
+}
+
+.inner-box {
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    transition: 0.6s;
+}
+
+
+.inner-box p {
+    color: #fff;
+    font-weight: 400;
+}
+
+
+.primary-btn {
+    background-color: #4A90E2;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 12px;
+
+    color: #fff;
+    font-size: 12px;
+}
+
+
+
+.box-button {
+    position: absolute;
+    left: 0;
+    top: -23px;
+    transition: 0.6s;
+}
+
+.card-img {
+    max-width: 1190px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.inner-card {
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 5px;
+    position: absolute;
+    bottom: -100px;
+    left: 40px;
+    right: 40px;
+}
+
+.card {
+    margin-bottom: 140px;
+    position: relative;
+}
+
+.card h3 {
+    color: #171717;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+
+.card p {
+    color: #666;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 14px;
+}
+
+.card span {
+    color: #666;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.mobile-btn {
+    background-color: transparent;
+    border: none;
+}
+
+
+.mobile-wrapper {
+    display: none;
+}
+
+.close-btn {
+    display: none;
+}

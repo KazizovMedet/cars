@@ -1,0 +1,120 @@
+@media (max-width: 1260px) {
+    .container {
+        padding: 0 15px;
+    }
+    .col-4 {
+        width: 100%;
+    }
+
+    .col-8 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .card h3 {
+        font-size: 18px;
+        margin: 14px 0 10px
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .search-btn {
+        display: none;
+    }
+
+    .mobile-wrapper {
+        display: block;
+    }
+
+    .mobile-menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: black;
+        z-index: 9999;
+        gap: 20px
+    }
+
+    .mobile-menu a {
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 16px;
+    }
+
+    .mobile-btn:hover+.mobile-menu {
+        display: flex;
+    }
+
+    .mobile-menu:hover {
+        display: flex;
+    }
+
+    .inner-card {
+        padding: 15px;
+        left: 20px;
+        right: 20px;
+    }
+    
+    .inner-box {
+        bottom: -50px;
+    }
+
+    .box:hover .inner-box{
+        bottom: 12px;
+        left: 12px;
+    }
+}
+
+@media (max-width: 600px){
+    section{
+        padding: 10px 0;
+    }
+
+    .inner-box p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .inner-box h5 {
+        font-size: 14px;
+    }
+
+    .inner-box {
+        bottom: -60px
+    }
+}
+
+@media (max-width: 400px){
+    .inner-box p {
+        font-size: 10px;
+    }
+
+    .inner-box h5 {
+        font-size: 12px;
+    }
+
+    .col-6 {
+        padding: 10px;
+    }
+
+    .col-4 {
+        padding: 10px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .inner-card{
+        position: unset;
+    }
+}
